@@ -1,32 +1,7 @@
-.top-menu {
-    list-style-type: none;
-    margin-left: 0%;
-    padding: 0;
-    overflow: hidden;
-    width: 650px
-} 
-
 .top-left{
     float: left;
     margin-right: 10px;
     margin-bottom: 50px;
-}
-p{
-    font-size: 18px;
-}
-nav.Bar li{
-    float: left;
-}
-
-nav.Bar li a{
-    display: block;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 20px;
-    padding-top: 130px; 
-    text-decoration: none;
-    text-align: center;
-    text-shadow: 1px 1px #000000;
 }
 
 body{
@@ -35,37 +10,116 @@ body{
     font-family: sans-serif;
 }
 
-section.Test{
+p{
+    font-size: 18px;
+}
+
+.Bar{
+    list-style-type: none;
+    margin-left: 0%;
+    padding: 0;
+    overflow: hidden;
+    width: 650px
+} 
+
+.Bar li{
+    float: left;
+}
+
+.Bar li a{
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    padding-top: 120px; 
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+}
+
+.Bar li a:hover {
+    color: rgb(169, 213, 212);
+}
+
+section.Header{
     background-image: url("grfx/header.jpg");
     margin: 0px;
     padding: 0px;
     width: 800px;
     height: 272px;
 }
+#regeren{
+    margin: 0px 0px 0px 5px;
+    padding: 0px;
+}
 
-#vloot{
+#devloot{
     font-size: 58px;
     padding-bottom: 0px;
     margin: 0px;
 }
 
-#vloot2{
-    font-size: 20px;
-    padding-top: 0px;
-    margin: 0px;
-}
-
-#onderzeer1{
+#vloot1{
     float: left;
     margin-right: 10px;
     margin-bottom: 25px;
 }
 
-#onderzeer2{
+#vloot2{
     float: right;
     margin: 0px 0px 20px 20px;
 }
 
-#onderzeer3{
+#vloot3{
     float: left;
+    margin-right: 20px;
+}
+
+#vloot4{
+    float: left;
+    margin: 0px 10px 15px 0px;
+}
+
+#vloot5{
+    float: right;
+}
+
+#vloot6{
+    float: left;
+    margin-right: 10px;
+}
+
+#vloot7{
+    float: left;
+    margin-right: 10px;
+}
+
+#vloot8{
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding-right: 180px; 
+}
+
+#vloot9{
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+}
+
+#vloot10{
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+#vloot11{
+    float: left;
+    margin: 0px 20px 20px 10px;
+}
+
+#vloot12{
+    margin: 4px 4px 4px 20px;
+    float: right;
 }
