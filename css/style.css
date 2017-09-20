@@ -15,9 +15,9 @@ p{
 }
 
 .kop{
-    background-color: white;
     margin: 0px;
     padding: 20px 0px 20px 20px;
+    background-color: white;
 }
 
 .Bar{
@@ -48,12 +48,12 @@ p{
 }
 
 section.Header{
-    background-image: url("grfx/header.jpg");
-    margin: auto;
-    padding: 0px;
+    display: block;
     height: 260px;
     width: 100%;
-    display: block;
+    margin: auto;
+    padding: 0px;
+    background-image: url("grfx/header.jpg");
     
 }
 #regeren{
