@@ -36,11 +36,9 @@ p{
     display: block;
     color: #FFFFFF;
     text-align: center;
-    padding: 20px;
-    padding-top: 120px; 
+    font-size: 14px;
+    padding: 110px 20px 20px 20px;
     text-decoration: none;
-    text-align: center;
-    text-shadow: 1px 1px #000000;
 }
 
 .Bar li a:hover {
@@ -56,15 +54,17 @@ section.Header{
     background-image: url("grfx/header.jpg");
     
 }
-#regeren{
-    margin: 0px 0px 0px 5px;
-    padding: 0px;
-}
 
 #devloot{
-    font-size: 58px;
-    padding-bottom: 0px;
+    font-size: 45px;
+    padding: 20px 0px 0px 20px;
     margin: 0px;
+}
+
+#regeren{
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    font-weight: normal;
 }
 
 #vloot0{
